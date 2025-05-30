@@ -85,6 +85,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -186,3 +187,4 @@ DEFAULT_FROM_EMAIL = 'dagodogelton79@gmail.com'
 
 os.environ['SSL_CERT_FILE'] = certifi.where()
 print("Loaded settings.py with EMAIL_BACKEND:", EMAIL_BACKEND)
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
