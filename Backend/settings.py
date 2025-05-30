@@ -90,6 +90,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "https://vote-royale.vercel.app",
     "https://vote-royale-rjcse1a1o-elton-s-projects.vercel.app",  
+    "https://vote-royale-elton-s-projects.vercel.app/",
 ]
 
 MIDDLEWARE = [
