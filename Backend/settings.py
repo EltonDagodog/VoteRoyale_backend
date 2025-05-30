@@ -79,6 +79,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
+    "vote-royale.vercel.app"
     "http://localhost:3000",
     "http://192.168.6.195:8080",
     "http://localhost:8080"# Adjust based on your frontend port
