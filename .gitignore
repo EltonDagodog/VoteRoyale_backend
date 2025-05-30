@@ -13,3 +13,5 @@ db.sqlite3
 
 # Ignore VSCode settings (if you're using it)
 .vscode/
+
+.DS_Store
